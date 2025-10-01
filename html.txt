@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo Gamer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>🎮 Mundo Gamer</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#juegos">Juegos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <section id="inicio" class="banner">
+    <h2>Bienvenido al universo de los videojuegos</h2>
+    <p>Explora las últimas noticias, reseñas y tendencias gamer.</p>
+  </section>
+
+  <!-- Noticias -->
+  <section id="noticias" class="contenedor">
+    <h2>📰 Noticias</h2>
+    <article>
+      <h3>Lanzamiento de GTA VI</h3>
+      <p>Rockstar confirma fecha de lanzamiento y detalles del nuevo mapa.</p>
+    </article>
+    <article>
+      <h3>Nintendo Direct</h3>
+      <p>Nuevos títulos anunciados para Switch y actualización de Zelda.</p>
+    </article>
+  </section>
+
+  <!-- Juegos -->
+  <section id="juegos" class="contenedor">
+    <h2>🎮 Juegos Populares</h2>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <img src="https://via.placeholder.com/200x120" alt="Fortnite">
+        <h3>Fortnite</h3>
+      </div>
+      <div class="tarjeta">
+        <img src="https://via.placeholder.com/200x120" alt="Minecraft">
+        <h3>Minecraft</h3>
+      </div>
+      <div class="tarjeta">
+        <img src="https://via.placeholder.com/200x120" alt="Call of Duty">
+        <h3>Call of Duty</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contenedor">
+    <h2>📩 Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Mundo Gamer - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
